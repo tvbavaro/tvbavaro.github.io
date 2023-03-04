@@ -1,0 +1,104 @@
+.btn {
+    width: 78px;
+    height: 78px;
+    color: #62dafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 36px;
+    font-weight: 700;
+    transition: all 250ms;
+}
+
+.btn:hover {
+    background-color: #242930;
+}
+
+.winner-cell {
+    background-color: #1F5F91;
+}
+
+.winner-cell:hover {
+    background-color: #1F5F91;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+
+.container div:nth-child(-n+6) {
+    border-color: #62dafb;
+    border-bottom: 1px solid;
+}
+
+.container div:nth-child(n+4) {
+    border-color: #62dafb;
+    border-top: 1px solid;
+}
+
+.container div:nth-child(3n+2) {
+    border-color: #62dafb;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.container div:nth-child(3n+2) {
+    border-color: #62dafb;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+.dashboard {
+    color: #62dafb;
+    margin-bottom: 24px;
+}
+
+p {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+.actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+button {
+    height: 36px;
+    width: 52px;
+    color: #62dafb;
+    background-color: #282c34;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: cursive;
+    cursor: pointer;
+    transition: all 250ms;
+}
+
+button:hover {
+    background-color: #242930;
+}
+body {
+    background-color: #282c34;
+    /* font-family: "Gill Sans", sans-serif; */
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 248px;
+}
+
